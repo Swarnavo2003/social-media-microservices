@@ -43,5 +43,5 @@ app.use(
 app.use(errorHandler);
 
 app.listen(PORT, () => {
-  logger.info(`Post Service is running on port ${PORT}`);
+  logger.info(`Media Service is running on port ${PORT}`);
 });
